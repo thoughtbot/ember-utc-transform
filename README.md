@@ -6,8 +6,8 @@ Dates](http://blog.skylight.io/bringing-sanity-to-javascript-utc-dates-with-mome
 ## Installation
 
 * `git clone` this repository
-* `npm install`
-* `bower install`
+* `npm install --save ember-utc-transform`
+* `ember g ember-utc-transform`
 
 ## Usage
 
