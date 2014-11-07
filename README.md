@@ -1,12 +1,27 @@
-# Ember-cli-utc-transform
+# ember-utc-transform
 
-This README outlines the details of collaborating on this Ember addon.
+Inspired by [Tom Dale's Post on UTC
+Dates](http://blog.skylight.io/bringing-sanity-to-javascript-utc-dates-with-moment-js-and-ember-data/)
 
 ## Installation
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
+
+## Usage
+
+Declaring a model's field with `DS.attr("utc")` will leverage `moment.js`
+instead of JavaScript's standard `Date` object.
+
+```javascript
+// app/models/post.js
+
+export default DS.Model.extend({
+  body: DS.attr("string"),
+  publishedAt: DS.attr("utc")
+});
+```
 
 ## Running
 

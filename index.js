@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-utc-transform'
+  name: 'ember-utc-transform'
 };
