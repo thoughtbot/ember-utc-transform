@@ -3,10 +3,18 @@ import DS from "ember-data";
 
 export default DS.Transform.extend({
   serialize: function(value) {
-    return value ? value.toJSON() : null;
+    if (value) {
+      return value.toJSON();
+    } else {
+      return null;
+    }
   },
 
   deserialize: function(value) {
-    return moment.utc(value);
+    if (value) {
+      return moment.utc(value);
+    } else {
+      return null;
+    }
   }
 });
