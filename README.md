@@ -1,6 +1,23 @@
-# Ember-utc-transform
+# Ember UTC Transform
+
+Inspired by [Tom Dale's Post on UTC Dates](http://blog.skylight.io/bringing-sanity-to-javascript-utc-dates-with-moment-js-and-ember-data/)
 
 This README outlines the details of collaborating on this Ember addon.
+
+## Usage
+
+```bash
+$ ember install ember-utc-transform
+```
+
+```js
+import DS from 'ember-data';
+
+export default DS.Model.extend({
+  createdAt: DS.attr('utc'),
+  updatedAt: DS.attr('utc'),
+});
+```
 
 ## Installation
 
