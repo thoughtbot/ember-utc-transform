@@ -40,3 +40,37 @@ export default DS.Model.extend({
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## Contributing
+
+See the [CONTRIBUTING] document.
+Thank you, [contributors]!
+
+  [CONTRIBUTING]: CONTRIBUTING.md
+  [contributors]: https://github.com/thoughtbot/ember-utc-transform/graphs/contributors
+
+## License
+
+ember-utc-transform is Copyright (c) 2015 thoughtbot, inc.
+It is free software, and may be redistributed
+under the terms specified in the [LICENSE] file.
+
+  [LICENSE]: /LICENSE.md
+
+## About
+
+ember-utc-transform is maintained by [Sean Doyle][seanpdoyle].
+
+![thoughtbot](https://thoughtbot.com/logo.png)
+
+  [seanpdoyle]: https://github.com/seanpdoyle
+
+ember-utc-transform is maintained and funded by thoughtbot, inc.
+The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+
+We love open source software!
+See [our other projects][community]
+or [hire us][hire] to help build your product.
+
+  [community]: https://thoughtbot.com/community?utm_source=github
+  [hire]: https://thoughtbot.com/hire-us?utm_source=github
